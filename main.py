@@ -1,4 +1,4 @@
-#Step 1 
+ 
 import random
 from words import word_list
 from hangart import stages
@@ -11,8 +11,7 @@ a = (int(random.random()*length))
 chosen_word = word_list[a]
  
 
-#TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
-#TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
+ 
 n = len(chosen_word)
 # print('printing n ',n)
 blank_word =['_']*n
